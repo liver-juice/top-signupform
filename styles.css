@@ -176,3 +176,10 @@ a{
     max-width: 100px;
 }
 
+.imgcreds{
+    position: absolute;
+    color: rgb(235, 235, 235);
+    margin-top: 96vh;
+    font-size: 12px;
+    margin-left:   130px;
+}
