@@ -121,7 +121,7 @@ input:focus{
 }
 
 input:invalid{
-    border: 1px solid rgb(255, 30, 30);
+    border-bottom: 1px solid rgb(255, 30, 30);
 }
 
 .headtext{
