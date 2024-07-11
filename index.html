@@ -1,3 +1,7 @@
+<!--Photo by <a href="https://unsplash.com/@a2eorigins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alex Perez</a> on <a href="https://unsplash.com/photos/red-and-black-artwork-ioJBsYQ-pPM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,8 +10,60 @@
     <title>Sign Up</title>
 
     <link rel="stylesheet" href="styles.css">
+
+    <!--Montserrat font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <!--Outfit-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <div class="card">
+        <div class="imgdiv">
+           <img src="/static/halie-west-25xggax4bSA-unsplash.jpg">
+        </div>
+
+        <div class="contentdiv">
+            <div class="headtext">
+                <p class="abovetext">This is <strong>not</strong> a real service. Its just something for you to look at. So go ahead and look at it.</p>
+            </div>
+
+            <div class="formdiv">
+                <form action="#" method="get" class="theform">
+                    <fieldset class="inputfs"> <!--groups controls together very nice.-->
+                        <legend><p class="legendtext">Let's do this!</p></legend>
+                        <div class="name">
+                            <label class="inputlabel">FIRST NAME<input type="text" id="fname"></label>
+                            <label class="inputlabel">LAST NAME<input type="text" id="lname"></label>
+                        </div>
+                        <div class="email-phonenumber">
+                            <label class="inputlabel">EMAIL<input type="email" id="email"></label>
+                            <label class="inputlabel">PHONE NUMBER<input type="tel" id="phone"></label>
+                        </div>
+                        <div class="password">
+                            <label class="inputlabel">PASSWORD<input type="text" id="password" required></label>
+                            <label class="inputlabel">CONFIRM PASSWORD<input type="text" id="confirmpassword" required></label>
+                        </div>
+                    </fieldset>
+                    <div class="formbtn">
+                        <button type="submit" class="submitbtn">Create Account</button>
+                        <p>Already have an account? <a href="#"><strong>Log in mothafucka</strong></a></p>
+                    </div>
+                </form>
+
+
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
+
+<!-- <p>This is not a real service. Its just something for you to look at. So go ahead and look at it.</p>-->
