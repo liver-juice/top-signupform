@@ -5,6 +5,11 @@ body{
     justify-content: center;
 }
 
+@font-face {
+    font-family: "Norse-Bold";
+    src: url('/Norse-Bold.otf');
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -26,7 +31,6 @@ div{
 .imgdiv{
     width: 500px;
     display: flex;
-    object-fit: fill;
     /* img will be a set size. no need for flex */
 }
 
@@ -84,6 +88,7 @@ form div{
     font-size: 24px;
     font-weight: 500;
     color:rgb(54, 54, 54);
+    margin-left: 50px;
 }
 
 label{
@@ -148,6 +153,36 @@ a{
     text-decoration: none;
     color: #596D48;
 }
+
+.imgoverlay{
+    position: absolute;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    align-items: center;
+    width: 450px;
+    height: 150px;
+    margin-top: 113px;
+    justify-content: center;
+}
+
+.imgoverlay p {
+    font-family: "Norse-Bold";
+    font-size: 75px;
+}
+
+.odinpic{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+
+
+
+
+
+
+
 
 
 
